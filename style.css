@@ -46,3 +46,43 @@ a {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  width: 70%;
+}
+
+.quote-name {
+  font-size: 24px;
+  font-style: bold;
+}
+
+.info-header {
+  font-size: 36px;
+  font-style: bold;
+  color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.about {
+  background-color: white;
+}
+
+.imgs {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
